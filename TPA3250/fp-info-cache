@@ -1,4 +1,4 @@
-24953338735807955
+24956908598080766
 4766T
 MULTIWATT15H
 Multiwatt 15-pin horizontal package
@@ -55398,6 +55398,13 @@ Button
 4
 2
 Custom
+CONN_5569-02A_MOL
+
+
+0
+2
+2
+Custom
 CS8416
 28-PIN TSSOP
 Integrated Circuit
@@ -55614,6 +55621,13 @@ Integrated Circuit
 0
 5
 5
+Custom
+PCBRCA
+
+
+0
+3
+3
 Custom
 PCM1795
 DB0028A

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -641,6 +641,30 @@
     [
       "d0eeeeda-311a-416d-b9f7-ac3b9875c0a9",
       "Root"
+    ],
+    [
+      "2cf0f8b0-5b35-4eee-86d2-563196fda961",
+      "POWERIN"
+    ],
+    [
+      "ee89cafe-04c0-4f27-a6f7-bc0f2ce998d5",
+      "POWER SUPPLIES"
+    ],
+    [
+      "0f8b0d48-3ccf-455e-9fb2-0c86a0f4f507",
+      "PGAINPUT"
+    ],
+    [
+      "ed79208c-20ac-4652-a801-6cd46992a6c8",
+      "MCU"
+    ],
+    [
+      "7b577e16-d4db-4c3c-a8cd-e58ae6d0de99",
+      "DACINPUT"
+    ],
+    [
+      "e75a8119-f291-4f78-a382-5eb620f20833",
+      "ESP32USB"
     ]
   ],
   "text_variables": {}
