@@ -5,171 +5,6 @@
 	(uuid "55ef8a1f-1a22-4fc6-a0ef-b21ffe17d6af")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Custom:39301020"
 			(pin_names
 				(offset 1.016)
@@ -3176,16 +3011,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 83.82) (xy 252.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57649edd-20c9-449b-b58e-abcfb33a4e21")
-	)
-	(wire
-		(pts
 			(xy 57.15 66.04) (xy 57.15 74.93)
 		)
 		(stroke
@@ -3416,6 +3241,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 125.73) (xy 210.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be664d8f-23c5-4fb6-9333-1239b03add19")
+	)
+	(wire
+		(pts
 			(xy 180.34 91.44) (xy 180.34 86.36)
 		)
 		(stroke
@@ -3556,6 +3391,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 83.82) (xy 252.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd67b749-6b6c-4a99-8ce9-b7364fd76032")
+	)
+	(wire
+		(pts
 			(xy 123.19 102.87) (xy 128.27 102.87)
 		)
 		(stroke
@@ -3564,26 +3409,27 @@
 		)
 		(uuid "fd74daf6-3a35-4ff9-a673-0c0c0d1567e0")
 	)
-	(wire
-		(pts
-			(xy 205.74 125.73) (xy 209.55 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff510ac1-c49e-4393-ba4e-8e3dcab4c68b")
-	)
 	(hierarchical_label "INRUSH_CTRL"
 		(shape input)
-		(at 209.55 125.73 0)
+		(at 210.82 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8f062e61-3a6f-4bf9-8420-cb39a5a2dd39")
+		(uuid "87f6904e-a3f4-457a-bcd5-6bfe21c2a963")
+	)
+	(hierarchical_label "PWR-SW-1"
+		(shape input)
+		(at 132.08 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d33da864-278c-4aa4-aa9d-83263f0d89fe")
 	)
 	(hierarchical_label "PVDD_24V"
 		(shape input)
@@ -3595,6 +3441,17 @@
 			(justify left)
 		)
 		(uuid "d5c6392f-c4cd-46f7-be07-681a8d68916a")
+	)
+	(hierarchical_label "PWR-SW-2"
+		(shape input)
+		(at 132.08 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1201b2c-a2c8-43bb-bf49-586cde5e2fe5")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4266,7 +4123,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_DPST-NO"
+		(property "Value" "INRUSH RELAY"
 			(at 165.1 78.74 90)
 			(effects
 				(font
@@ -4347,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_DPST-NO"
+		(property "Value" "STANDBY RELAY"
 			(at 119.38 62.23 90)
 			(effects
 				(font
@@ -4630,7 +4487,7 @@
 				)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
+		(property "Value" "10R NTC"
 			(at 165.4175 64.77 90)
 			(effects
 				(font
@@ -4638,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D16.0mm_W5.0mm_P7.50mm"
 			(at 163.83 68.58 0)
 			(effects
 				(font
@@ -4950,76 +4807,6 @@
 			(project "TPA3250"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9/2cf0f8b0-5b35-4eee-86d2-563196fda961"
 					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 137.16 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9993c092-40ac-4ab2-915f-647367dfe8fc")
-		(property "Reference" "J10"
-			(at 139.7 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PWR SW"
-			(at 139.7 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97fd71da-d148-4287-92ce-f79e49ce0cb3")
-		)
-		(pin "1"
-			(uuid "442dc175-c19e-4de4-a15b-af33bb245505")
-		)
-		(instances
-			(project "TPA3250"
-				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9/2cf0f8b0-5b35-4eee-86d2-563196fda961"
-					(reference "J10")
 					(unit 1)
 				)
 			)

@@ -4420,6 +4420,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 60.96) (xy 74.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8ac4f5-3c9e-42d0-930e-15c30915c69c")
+	)
+	(wire
+		(pts
 			(xy 381 95.25) (xy 381 91.44)
 		)
 		(stroke
@@ -4680,16 +4690,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 60.96) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b12d3d6-a947-4356-b9af-74a1cca3dff2")
-	)
-	(wire
-		(pts
 			(xy 271.78 269.24) (xy 313.69 269.24)
 		)
 		(stroke
@@ -4870,6 +4870,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 60.96) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538b60ff-1333-4a3b-88e9-1e3c234bda92")
+	)
+	(wire
+		(pts
 			(xy -12.7 1.27) (xy 35.56 1.27)
 		)
 		(stroke
@@ -4940,7 +4950,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 -41.91) (xy 45.72 60.96)
+			(xy 45.72 -41.91) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7200,6 +7210,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 50.8) (xy 45.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff4143f-db67-4abf-b6b0-e8cd471551c9")
+	)
+	(wire
+		(pts
 			(xy 309.88 116.84) (xy 309.88 142.24)
 		)
 		(stroke
@@ -7678,6 +7698,70 @@
 			(justify left)
 		)
 		(uuid "384c4a42-e6eb-464b-91ac-639f1ec930cc")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 365.76 189.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00740db1-3ee0-4540-a58e-701fa4c58791")
+		(property "Reference" "H5"
+			(at 368.3 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 368.3 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 365.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 365.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8708,6 +8792,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 365.76 204.47 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "243b809a-2af8-497c-8a08-4419da934025")
+		(property "Reference" "H8"
+			(at 368.3 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 368.3 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 365.76 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 365.76 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 259.08 0)
 		(unit 1)
@@ -8836,6 +8984,70 @@
 			(project "TPA3250"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 365.76 199.39 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25a38af4-17b8-45bf-80ae-5f36b992a3e0")
+		(property "Reference" "H7"
+			(at 368.3 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 368.3 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 365.76 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 365.76 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -9459,6 +9671,94 @@
 			(project "TPA3250"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 26.67 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34319f53-294a-4850-bc24-b4cf6745ad25")
+		(property "Reference" "J10"
+			(at 27.94 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER 2"
+			(at 27.94 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b3ff723e-7036-45c5-8d96-4f53863c9bda")
+		)
+		(pin "4"
+			(uuid "d6bcb903-29c5-480c-a224-308b368e6f44")
+		)
+		(pin "5"
+			(uuid "9578b9fa-fe97-49e2-87df-3acb86b7bd0b")
+		)
+		(pin "6"
+			(uuid "3cc853bc-ecae-44cb-8779-3c70f7544b22")
+		)
+		(pin "7"
+			(uuid "47a72eff-5e45-44b6-9ab3-89824c66708c")
+		)
+		(pin "8"
+			(uuid "dd7b52ec-438d-4c05-9755-60d1852d4bd1")
+		)
+		(pin "2"
+			(uuid "f3c12573-9750-463c-8154-fa0ea307746d")
+		)
+		(pin "1"
+			(uuid "12a4675a-318f-4a29-9c68-ea910c02ab53")
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10769,6 +11069,70 @@
 			(project "TPA3250"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 365.76 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c110a3f-c571-40dd-a38b-d0f2b3533e94")
+		(property "Reference" "H6"
+			(at 368.3 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 368.3 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 365.76 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 365.76 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -12917,6 +13281,91 @@
 			(project "TPA3250"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 52.07 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91ffeba5-0925-4720-932e-6f618a67f9bb")
+		(property "Reference" "AMP1"
+			(at 46.736 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER 2"
+			(at 46.482 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "63b44ea9-8a02-4f10-a42c-dde4a71c0a53")
+		)
+		(pin "4"
+			(uuid "4fc87251-dc57-43f9-a612-e20500e04c3e")
+		)
+		(pin "5"
+			(uuid "78432431-b66e-4287-9263-b5798c3b089c")
+		)
+		(pin "6"
+			(uuid "d2db36b0-e1a4-4036-9094-460b23e7a994")
+		)
+		(pin "7"
+			(uuid "354721ec-fc98-4a83-a75f-1ddffae2a06a")
+		)
+		(pin "8"
+			(uuid "0bb2be0e-30d0-41b3-88f7-8138f7ddb91e")
+		)
+		(pin "2"
+			(uuid "5bdc4e96-35f2-4be6-8052-db2f8856786b")
+		)
+		(pin "1"
+			(uuid "a0306920-b864-4613-bc0c-f2fb29f5c0a9")
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "AMP1")
 					(unit 1)
 				)
 			)
@@ -15514,6 +15963,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 52.07 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6bfee2f-a021-41ed-8a0a-555af6008047")
+		(property "Reference" "AMP2"
+			(at 47.244 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER 1"
+			(at 46.736 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "21227ede-0eba-4d94-b11f-55bfdf207742")
+		)
+		(pin "4"
+			(uuid "c3de690d-fe6c-4ad5-8422-a8c855d09c55")
+		)
+		(pin "5"
+			(uuid "f6cdf2ec-5aa9-4ae9-a29e-c7168fa1b01e")
+		)
+		(pin "6"
+			(uuid "b05da8ad-9c82-4432-aaf1-24c988cd7101")
+		)
+		(pin "7"
+			(uuid "3d095adc-9f61-4e24-b00f-547f6dce4e25")
+		)
+		(pin "8"
+			(uuid "dcf98821-d9bc-46ff-9b57-cb0d5c912797")
+		)
+		(pin "2"
+			(uuid "0eaa2608-c318-47c9-8c69-3ce206842c2b")
+		)
+		(pin "1"
+			(uuid "8cbf0210-bd40-4753-9393-41c4f3260efb")
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "AMP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 364.49 45.72 0)
 		(unit 1)
@@ -15641,6 +16175,94 @@
 			(project "TPA3250"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 26.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1bd145-5f3a-4ae3-81a3-d3d92f508d64")
+		(property "Reference" "J9"
+			(at 27.94 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER 1"
+			(at 27.94 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "83a13fd9-735a-4397-ae67-98d8b2281a3a")
+		)
+		(pin "4"
+			(uuid "ca88f276-4c72-4504-b9d0-2dca7d2a239e")
+		)
+		(pin "5"
+			(uuid "a4a57496-4340-41f7-9779-df7937a4c8d8")
+		)
+		(pin "6"
+			(uuid "5a8658cc-2f65-472c-aaba-6a2849e8488d")
+		)
+		(pin "7"
+			(uuid "f93a0c0f-8ec1-40bb-8048-8f5e92a9563f")
+		)
+		(pin "8"
+			(uuid "f84022cd-6744-419b-a05b-e85eed9026bf")
+		)
+		(pin "2"
+			(uuid "e6f1022e-8b91-469d-bac7-88010cf0229f")
+		)
+		(pin "1"
+			(uuid "6a5335e6-1c40-4d55-bb00-39cc8b36ad2f")
+		)
+		(instances
+			(project "PCM3250-SPLIT"
+				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -18120,7 +18742,7 @@
 			)
 		)
 		(instances
-			(project "TPA3250"
+			(project "PCM3250-SPLIT"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(page "4")
 				)
@@ -18202,7 +18824,7 @@
 			)
 		)
 		(instances
-			(project "TPA3250"
+			(project "PCM3250-SPLIT"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(page "2")
 				)
@@ -18294,7 +18916,7 @@
 			)
 		)
 		(instances
-			(project "TPA3250"
+			(project "PCM3250-SPLIT"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(page "6")
 				)
@@ -18376,7 +18998,7 @@
 			)
 		)
 		(instances
-			(project "TPA3250"
+			(project "PCM3250-SPLIT"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(page "7")
 				)
@@ -18538,7 +19160,7 @@
 			)
 		)
 		(instances
-			(project "TPA3250"
+			(project "PCM3250-SPLIT"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(page "5")
 				)
@@ -18650,7 +19272,7 @@
 			)
 		)
 		(instances
-			(project "TPA3250"
+			(project "PCM3250-SPLIT"
 				(path "/d0eeeeda-311a-416d-b9f7-ac3b9875c0a9"
 					(page "3")
 				)
