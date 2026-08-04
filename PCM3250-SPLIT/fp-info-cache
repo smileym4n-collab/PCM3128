@@ -1,4 +1,4 @@
-24964049526010749
+24965835368155865
 4766T
 MULTIWATT15H
 Multiwatt 15-pin horizontal package
@@ -55873,6 +55873,13 @@ Integrated Circuit
 0
 5
 5
+Custom
+TPA3110
+
+
+0
+50
+50
 Custom
 TPA3128
 DAP (R-PDSO-G32)
